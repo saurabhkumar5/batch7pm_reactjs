@@ -93,6 +93,7 @@ import './App.css'
                   <h1>dosa</h1>
                   <h2>Rating:5 star</h2>
                   <p>sector:25</p>
+                  
              </div>
              <div className='main'>
                   <img className="img1" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bbuwmp35jmzxgpwyfq7b"/>
