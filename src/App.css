@@ -1,3 +1,46 @@
-h1{
+/* h1{
     background-color: blueviolet;
+}
+.header{
+    background-color: red;
+    text-align: center;
+    height: 50vh;
+} */
+
+
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    height: 80px;
+}
+.nav{
+    display: flex;
+    gap: 40px;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    margin: auto 0;
+}
+.main{
+    width: 300px;
+    height: 350px;
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.img1{
+    width: 300px;
+    height: 200px;
+    
+}
+.momo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
