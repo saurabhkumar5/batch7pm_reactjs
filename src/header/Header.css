@@ -1,0 +1,19 @@
+header{
+    background-color: cadetblue;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    height: 80px;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+}
+li{
+    list-style-type: none;
+    color: yellow;
+}
+.logo{
+    margin: auto 0;
+}

@@ -11,6 +11,7 @@ function Image({rating,sector,img}) {
       <h1>Chinese Wok</h1>
       <h2>Rating:{rating} star</h2>
       <p>sector: {sector}</p>
+      
     </div>
   );
 }
