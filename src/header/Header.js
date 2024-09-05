@@ -1,15 +1,16 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div>
          <header>
                <div className='logo'>Swiggy</div>
                <ul className='nav'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>services</li>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contact'>Contact</Link>
+                <Link to='/service'>services</Link>
                </ul>
              </header>
 

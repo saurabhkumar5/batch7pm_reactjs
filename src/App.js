@@ -178,29 +178,34 @@
 
 
 import React from 'react'
-import './App.css'
-import Image from './Image';
+// import './App.css'
+// import Image from './Image';
 import Header from './header/Header';
-import data from './Data';
+// import data from './Data';
+import Footer from './footer/Footer';
+import Body from './body/Body';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import About from './header/About';
+import Contact from './header/Contact';
+import Services from './header/Services';
+
+
 
 function App() {
 
   return (
     <div>
    
-          <Header/>
-           <div className='momo'>
-           {
-               data.map((value)=>{
-                    // console.log(value)
-                    return (
-                         // <h1>{value.sector},{value.rating},<img src={value.img}/></h1>
-
-                         <Image rating={value.rating} sector={value.sector} img={value.img}/>
-                    )
-               })
-            }
-           </div>
+         <BrowserRouter>
+         <Header/>
+          <Routes>
+            <Route path='/' element={<Body/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/service' element={<Services/>}/>
+          </Routes>
+          <Footer/>
+         </BrowserRouter>
 
 
     </div>
