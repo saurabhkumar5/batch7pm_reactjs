@@ -177,37 +177,88 @@
 
 
 
+// import React from 'react'
+// // import './App.css'
+// // import Image from './Image';
+// import Header from './header/Header';
+// // import data from './Data';
+// import Footer from './footer/Footer';
+// import Body from './body/Body';
+// import {BrowserRouter,Routes,Route} from 'react-router-dom'
+// import About from './header/About';
+// import Contact from './header/Contact';
+// import Services from './header/Services';
+
+
+
+// function App() {
+
+//   return (
+//     <div>
+   
+//          <BrowserRouter>
+//          <Header/>
+//           <Routes>
+//             <Route path='/' element={<Body/>}/>
+//             <Route path='/about' element={<About/>}/>
+//             <Route path='/contact' element={<Contact/>}/>
+//             <Route path='/service' element={<Services/>}/>
+//           </Routes>
+//           <Footer/>
+//          </BrowserRouter>
+
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useState } from 'react'
+
+// function App() {
+//         //  const [number,setNumber]  = useState(0);
+//         const [name,setName]  = useState("anjali");
+//          function momo(){
+//             //  setNumber(number+1)
+//               setName("amita")
+//          }
+//       //    function logo(){
+//       //     setNumber(number-2)
+//       // }
+
+//   return (
+   
+//        <>
+//          <h1>{name}</h1>
+//          <button onClick={momo}> inc+</button>
+//          <button onClick={logo}> dec-</button>
+//        </>
+
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-// import './App.css'
-// import Image from './Image';
-import Header from './header/Header';
-// import data from './Data';
-import Footer from './footer/Footer';
-import Body from './body/Body';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import About from './header/About';
-import Contact from './header/Contact';
-import Services from './header/Services';
-
-
+import Form from './Form'
 
 function App() {
-
   return (
     <div>
-   
-         <BrowserRouter>
-         <Header/>
-          <Routes>
-            <Route path='/' element={<Body/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/service' element={<Services/>}/>
-          </Routes>
-          <Footer/>
-         </BrowserRouter>
-
-
+      <Form/>
     </div>
   )
 }
