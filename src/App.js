@@ -254,11 +254,17 @@
 
 import React from 'react'
 import Form from './Form'
+import Api from './Api'
+import Github from './Github'
+import Nasa from './Nasa'
 
 function App() {
   return (
     <div>
-      <Form/>
+      {/* <Form/> */}
+      {/* <Api/> */}
+      {/* <Github/> */}
+      <Nasa/>
     </div>
   )
 }
